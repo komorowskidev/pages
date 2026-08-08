@@ -4,114 +4,181 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Polityka prywatności / Privacy Policy</title>
-
     <style>
         body {
-          font-family: Arial, sans-serif;
-          line-height: 1.6;
-          max-width: 900px;
-          margin: 40px auto;
-          padding: 0 20px;
-          color: #222;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #222;
         }
 
         h1 {
-          border-bottom: 2px solid #ddd;
-          padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
         }
 
         h2 {
-          margin-top: 40px;
-          color: #333;
+            margin-top: 40px;
+            color: #333;
         }
 
         h3 {
-          margin-top: 24px;
+            margin-top: 24px;
         }
 
         .section {
-          margin-bottom: 50px;
+            margin-bottom: 50px;
         }
 
         .updated {
-          color: #666;
-          font-size: 0.95em;
+            color: #666;
+            font-size: 0.95em;
         }
 
         code {
-          background: #f4f4f4;
-          padding: 2px 4px;
-          border-radius: 4px;
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
         }
     </style>
 </head>
 
 <body>
-
 <h1>Polityka prywatności / Privacy Policy</h1>
 
 <div class="section">
     <h2>Polski</h2>
 
     <p class="updated">
-        Data ostatniej aktualizacji: 23 maja 2026
+        Data ostatniej aktualizacji: 8 sierpnia 2026 r.
     </p>
 
     <p>
-        Aplikacja służy do organizowania zakupów i została zaprojektowana
-        z poszanowaniem prywatności użytkownika.
+        Buyer to aplikacja do tworzenia, synchronizowania i współdzielenia list zakupów.
+        Niniejsza polityka wyjaśnia, jakie dane są przetwarzane i w jakim celu.
     </p>
 
-    <h3>Jakie dane zbieramy</h3>
+    <h3>Administrator danych i kontakt</h3>
 
-    <p>Aplikacja:</p>
+    <p>
+        Administratorem danych osobowych jest
+        <strong>KomorowskiDev Krzysztof Świerkosz-Komorowski</strong>.
+    </p>
+
+    <p>
+        W sprawach dotyczących prywatności można skontaktować się pod adresem:
+        <code>komorowskidev@gmail.com</code>.
+    </p>
+
+    <h3>Jakie dane przetwarzamy</h3>
 
     <ul>
-        <li>nie wymaga zakładania konta,</li>
-        <li>nie wymaga logowania,</li>
-        <li>nie zbiera danych osobowych,</li>
-        <li>nie wysyła żadnych danych przez Internet,</li>
-        <li>nie śledzi aktywności użytkownika,</li>
-        <li>nie korzysta z narzędzi analitycznych ani reklamowych.</li>
+        <li>
+            dane konta: adres e-mail, identyfikator użytkownika oraz dane sesji
+            potrzebne do rejestracji i logowania;
+        </li>
+        <li>
+            dane list zakupów: nazwy kategorii i produktów, ilości, jednostki,
+            statusy produktów oraz informacje o zmianach;
+        </li>
+        <li>
+            dane współdzielenia: identyfikatory grup, członkostwo w grupie,
+            jednorazowe kody zaproszeń w postaci hasha oraz etykiety członków
+            nadawane przez właściciela listy, np. „Żona”;
+        </li>
+        <li>
+            techniczne dane synchronizacji, takie jak znaczniki czasu zmian
+            i informacje potrzebne do bezpiecznego odtworzenia synchronizacji.
+        </li>
     </ul>
 
+    <h3>Cele i podstawa przetwarzania</h3>
+
     <p>
-        Wszystkie dane wprowadzane przez użytkownika są przechowywane
-        wyłącznie lokalnie na urządzeniu użytkownika przy użyciu lokalnej
-        bazy danych Room.
+        Dane przetwarzamy w celu utworzenia konta, umożliwienia logowania,
+        synchronizacji list między urządzeniami oraz współdzielenia list z
+        zaproszonymi użytkownikami. Podstawą przetwarzania jest wykonanie
+        usługi żądanej przez użytkownika.
     </p>
 
-    <h3>Dostęp do Internetu</h3>
-
     <p>
-        Aplikacja nie komunikuje się z serwerami zewnętrznymi i nie przesyła
-        żadnych danych poza urządzenie użytkownika.
+        Nie należy wpisywać w nazwach produktów, kategoriach ani etykietach
+        członków danych wrażliwych, takich jak informacje o zdrowiu, poglądach
+        politycznych, religii lub dane finansowe.
     </p>
 
-    <h3>Bezpieczeństwo danych</h3>
+    <h3>Usługi zewnętrzne i transfer danych</h3>
 
     <p>
-        Dane zapisane w aplikacji pozostają wyłącznie na urządzeniu użytkownika.
-        Usunięcie aplikacji może spowodować usunięcie wszystkich zapisanych danych.
+        Aplikacja korzysta z Supabase do uwierzytelniania, przechowywania
+        danych i synchronizacji w czasie rzeczywistym. Supabase przetwarza
+        dane w imieniu administratora jako dostawca infrastruktury.
+    </p>
+
+    <p>
+        Projekt Supabase jest skonfigurowany w regionie
+        <strong>West EU (Ireland)</strong>.
+        Supabase lub jego podwykonawcy mogą przetwarzać dane również poza
+        Europejskim Obszarem Gospodarczym zgodnie z warunkami i zabezpieczeniami
+        stosowanymi przez Supabase.
+    </p>
+
+    <p>
+        Aplikacja nie korzysta z reklam, analityki reklamowej ani narzędzi
+        śledzących zachowanie użytkownika.
+    </p>
+
+    <h3>Udostępnianie list</h3>
+
+    <p>
+        Właściciel listy może utworzyć jednorazowy, czasowo ważny kod zaproszenia.
+        Przy tworzeniu kodu podaje etykietę dla zapraszanej osoby. Po przyjęciu
+        zaproszenia osoba ta uzyskuje dostęp do danych danej listy.
+    </p>
+
+    <p>
+        Etykieta członka jest widoczna właścicielowi listy i służy wyłącznie
+        rozróżnieniu osób korzystających z tej listy. Adresy e-mail członków
+        nie są wyświetlane w aplikacji innym członkom grupy.
+    </p>
+
+    <h3>Przechowywanie i bezpieczeństwo danych</h3>
+
+    <p>
+        Dane list są przechowywane lokalnie na urządzeniu oraz w usłudze
+        Supabase tak długo, jak jest to potrzebne do działania konta i
+        synchronizacji. Usunięcie aplikacji może usunąć dane lokalne,
+        ale nie usuwa automatycznie danych zapisanych na serwerze.
+    </p>
+
+    <p>
+        Dane przesyłane między aplikacją a usługą Supabase są chronione
+        połączeniem szyfrowanym. Dostęp do danych list jest ograniczony
+        do użytkowników należących do danej grupy.
+    </p>
+
+    <h3>Prawa użytkownika</h3>
+
+    <p>
+        Użytkownik może zwrócić się o dostęp do danych, ich poprawienie,
+        usunięcie, ograniczenie przetwarzania lub przeniesienie danych,
+        a także złożyć skargę do właściwego organu ochrony danych.
+    </p>
+
+    <p>
+        Aby zgłosić żądanie usunięcia konta lub danych zapisanych na serwerze,
+        należy skontaktować się pod adresem:
+        <code>komorowskidev@gmail.com</code>.
     </p>
 
     <h3>Zmiany w polityce prywatności</h3>
 
     <p>
-        Polityka prywatności może być aktualizowana w przyszłości w związku
-        z rozwojem aplikacji lub zmianami prawnymi. Aktualna wersja będzie
-        zawsze dostępna pod tym samym adresem.
-    </p>
-
-    <h3>Kontakt</h3>
-
-    <p>
-        W przypadku pytań dotyczących prywatności można skontaktować się
-        z twórcą aplikacji pod adresem:
-    </p>
-
-    <p>
-        <code>komorowskidev@gmail.com</code>
+        Polityka może być aktualizowana w związku z rozwojem aplikacji,
+        zmianami usług zewnętrznych lub zmianami prawnymi. Aktualna wersja
+        będzie dostępna pod tym samym adresem.
     </p>
 </div>
 
@@ -121,65 +188,131 @@
     <h2>English</h2>
 
     <p class="updated">
-        Last updated: May 23, 2026
+        Last updated: August 8, 2026
     </p>
 
     <p>
-        This application is designed to help users organize shopping
-        and was created with user privacy in mind.
+        Buyer is an application for creating, synchronizing, and sharing
+        shopping lists. This policy explains which data is processed and why.
     </p>
 
-    <h3>Data Collection</h3>
+    <h3>Data Controller and Contact</h3>
 
-    <p>The application:</p>
+    <p>
+        The data controller is
+        <strong>KomorowskiDev Krzysztof Swierkosz-Komorowski</strong>.
+    </p>
+
+    <p>
+        For privacy-related questions, contact:
+        <code>komorowskidev@gmail.com</code>.
+    </p>
+
+    <h3>Data We Process</h3>
 
     <ul>
-        <li>does not require account creation,</li>
-        <li>does not require login,</li>
-        <li>does not collect personal data,</li>
-        <li>does not send any data over the Internet,</li>
-        <li>does not track user activity,</li>
-        <li>does not use analytics or advertising services.</li>
+        <li>
+            account data: email address, user identifier, and session data
+            required for registration and sign-in;
+        </li>
+        <li>
+            shopping-list data: category and product names, quantities, units,
+            product states, and change information;
+        </li>
+        <li>
+            sharing data: group identifiers, group membership, one-time
+            invitation-code hashes, and member labels assigned by the list
+            owner, for example “Wife”;
+        </li>
+        <li>
+            technical synchronization data, such as change timestamps and
+            information required to safely resume synchronization.
+        </li>
     </ul>
 
+    <h3>Purposes and Legal Basis</h3>
+
     <p>
-        All data entered by the user is stored exclusively locally
-        on the user's device using the local Room database.
+        We process data to create and operate an account, enable sign-in,
+        synchronize lists across devices, and share lists with invited users.
+        Processing is necessary to provide the service requested by the user.
     </p>
 
-    <h3>Internet Access</h3>
-
     <p>
-        The application does not communicate with external servers
-        and does not transmit any data outside the user's device.
+        Do not enter sensitive personal data in product names, category names,
+        or member labels, such as health, political, religious, or financial
+        information.
     </p>
 
-    <h3>Data Security</h3>
+    <h3>Third-Party Services and Data Transfers</h3>
 
     <p>
-        All application data remains stored locally on the user's device.
-        Uninstalling the application may result in deletion of all stored data.
+        The application uses Supabase for authentication, data storage, and
+        real-time synchronization. Supabase processes data on behalf of the
+        controller as an infrastructure provider.
+    </p>
+
+    <p>
+        The Supabase project is configured in
+        <strong>West EU (Ireland)</strong>.
+        Supabase or its subprocessors may process data outside the European
+        Economic Area in accordance with Supabase's applicable terms and safeguards.
+    </p>
+
+    <p>
+        The application does not use advertising, advertising analytics, or
+        user-behaviour tracking tools.
+    </p>
+
+    <h3>Sharing Lists</h3>
+
+    <p>
+        A list owner can create a one-time, time-limited invitation code.
+        When creating a code, the owner supplies a label for the invited
+        person. Once accepted, that person receives access to the relevant list.
+    </p>
+
+    <p>
+        A member label is visible to the list owner only and is used solely to
+        distinguish people using that list. Members' email addresses are not
+        displayed to other group members in the application.
+    </p>
+
+    <h3>Data Retention and Security</h3>
+
+    <p>
+        List data is stored locally on the device and in Supabase for as long
+        as needed to operate the account and synchronization. Uninstalling the
+        application may delete local data but does not automatically delete
+        data stored on the server.
+    </p>
+
+    <p>
+        Data transmitted between the application and Supabase is protected by
+        encrypted connections. Access to list data is limited to users who
+        belong to the relevant group.
+    </p>
+
+    <h3>Your Rights</h3>
+
+    <p>
+        You may request access to, correction, deletion, restriction, or
+        portability of your data, and you may lodge a complaint with the
+        relevant data-protection authority.
+    </p>
+
+    <p>
+        To request deletion of an account or server-stored data, contact:
+        <code>komorowskidev@gmail.com</code>.
     </p>
 
     <h3>Changes to This Privacy Policy</h3>
 
     <p>
-        This Privacy Policy may be updated in the future due to application
-        development or legal changes. The latest version will always be
+        This policy may be updated due to application development, changes to
+        third-party services, or legal changes. The current version will remain
         available at the same address.
     </p>
-
-    <h3>Contact</h3>
-
-    <p>
-        If you have any questions regarding privacy,
-        you may contact the developer at:
-    </p>
-
-    <p>
-        <code>komorowskidev@gmail.com</code>
-    </p>
 </div>
-
 </body>
 </html>
